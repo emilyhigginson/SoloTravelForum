@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solo Travel Forum</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+
+  <!-- Main content -->
+  <body id= "site" class="container">
+  
+    <h1> ☼ Viajeras Solas ☼ </h1>
+    </header>
+  <main>
+    <p> Viajeras Solas is a resource for solo female travelers. Users can leave advice for other travelers, add cities they have traveled to, and show love to their favorite cities. <br> Click on a button below to get started! </p>
+
+    <span id="navBar" >
+        <button id= "adviceButton" class= "navBarButton"> Advice Forum </button>
+        <button id= "citiesButton" class= "navBarButton"> Explore Cities </button>
+        <button id= "addcityButton" class= "navBarButton"> Add City </button>
+    </span>
+
+    <div id="cityInfo">   
+    </div> 
+    <form id="home-screen"></form>
+
+    <div id= "commentContainer" style = "display:none"></div>
+    <span  id= "commentArea" style = "display:none">
+    <ul class = "scroll" id= "commentBar">  Advice from other solo travelers:</ul> <br>
+    <form id= "commentForm">
+      <label for="newComment">Add advice: </label>
+      <textarea name="newComment" id="newComment"></textarea>
+      <input id= "adviceButton" type="submit" value="Add Advice" />
+    </form>
+    </span>
+
+    <span id= "citySection">
+    <div class="sidenav" id= "leftbar" style = "display:none">
+      <span id="clickme"></span>
+      <ul id="cities"> </ul>
+    </div>
+
+     <div class="rightnav" id="cityForm" style="display:none">
+      <form id="new-image">
+        <h4>Add Your Travel Experience!</h4>
+        <label for="city">City: </label>
+        <input type="text" name="city" placeholder ="Enter new city here" id="new-city">
+        <label for="country">Country: </label>
+        <input type="text" name="country" placeholder ="Enter new country here" id="new-country">
+        <label for="image">Image URL: </label>
+        <input type="text" name="image" placeholder ="Enter new image here" id="new-image">
+        <label for="caption"> Caption: </label>
+        <input type="text" name="caption" placeholder ="Enter new caption here" id="new-caption">
+        <label for="username"> Added by: </label>
+        <input type="text" name="username" placeholder ="Enter your name here" id="new-name">
+        <input type="submit" value="Submit">
+      </form> 
+
+      <footer id="primary-footer">
+        <span><small>&copy; World Project Emily & Julia FIS 01102022</small></span>
+      </footer> 
+    </div>
+
+  </main>
+  </body>
+</html>

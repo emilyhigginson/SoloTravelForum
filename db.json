@@ -1,0 +1,93 @@
+{
+  "cities": [
+    {
+      "id": 1,
+      "country": "Spain",
+      "city": "Madrid",
+      "image": "https://d2xnbd34cn3art.cloudfront.net/files/2018/11/15183319/moving-to-Madrid_S786312625.jpg",
+      "caption": "Views from Madrid",
+      "username": "Danielle",
+      "likes": 29,
+      "comments": []
+    },
+    {
+      "id": 2,
+      "country": "Ukraine",
+      "city": "Kiev",
+      "image": "https://tse3.mm.bing.net/th?id=OIP.noUqVjvTjumm8z_76iATVwHaE5&pid=Api&P=0&w=251&h=167",
+      "caption": "Enjoy Ancient Architecture of Kiev",
+      "username": "Brooke",
+      "likes": 11
+    },
+    {
+      "id": 3,
+      "country": "France",
+      "city": "Paris",
+      "image": "https://media.istockphoto.com/photos/eiffel-tour-and-paris-cityscape-picture-id1133449890?k=20&m=1133449890&s=612x612&w=0&h=-bA21xKrn_iX-QbEl25QWDUAWhH1Ga-G5Ka6t_g9y6A=",
+      "caption": "Majestic Views of Paris",
+      "username": "Laura",
+      "likes": 11,
+      "comments": []
+    },
+    {
+      "id": 4,
+      "country": "United States of America",
+      "city": "New York",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIYtrlkeqSvJDnsmzrJ_72UqAS81bWrKxFdw&usqp=CAU",
+      "caption": "City that Never Sleeps",
+      "username": "Anna",
+      "likes": 8,
+      "comments": []
+    },
+    {
+      "id": 5,
+      "country": "Republic of Singapore",
+      "city": "Singapore",
+      "image": "http://media.cntraveler.com/photos/568c906d67dc82253d9f81dd/master/pass/most-beautiful-cities-singapore-cr-getty.jpg",
+      "caption": "City of the Future",
+      "username": "Kennedy",
+      "likes": 2
+    },
+    {
+      "country": "Thailand",
+      "city": "Bangkok",
+      "image": "https://media.istockphoto.com/photos/bangkok-thailand-at-the-temple-of-the-emerald-buddha-and-grand-palace-picture-id1146493663?k=20&m=1146493663&s=612x612&w=0&h=RjXi-erwZwW5ceJ8JwpqJ9px9cy1B_B73WEPUsGikqA=",
+      "caption": "Enjoy Gorgeous Temples",
+      "username": "Elizabeth",
+      "likes": 10,
+      "id": 6
+    },
+    {
+      "country": "Italy",
+      "city": "Rome",
+      "image": "https://www.fodors.com/wp-content/uploads/2019/07/BestAncientSitesInRome__HERO_willian-west-YpKiwlvhOpI-unsplash.jpg",
+      "caption": "Rome Is Always a Good Idea",
+      "username": "Madison",
+      "likes": 6,
+      "id": 7
+    },
+    {
+      "country": "Spain",
+      "city": "Valencia",
+      "image": "https://www.teacheracademy.eu/wp-content/uploads/2021/09/teacher-training-valencia-1216x863.jpg",
+      "caption": "Amazing beaches & orange juice ",
+      "username": "Emily ",
+      "likes": 0,
+      "id": 8
+    }
+  ],
+  "comments": [
+    {
+      "content": "I always recommend learning a few phrases in the main language of the city you are visiting. - Amelia",
+      "id": 1
+    },
+    {
+      "content": "Don't forget to share your location with a friend/family member while you're traveling solo! -Meghan",
+      "id": 2
+    },
+    {
+      "content": "I recommend always carrying a map of your city! - Emily",
+      "id": 3
+    }
+  ]
+}

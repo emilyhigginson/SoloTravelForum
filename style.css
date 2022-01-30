@@ -1,0 +1,202 @@
+/* color palette
+#caf0f8
+#90e0ef
+#00b4d8
+#0077b6
+#03045e
+*/
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    }
+  
+    /* BASE STYLES */
+    body {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      letter-spacing: .5px;
+      min-height: 100vh;
+      background-color: #caf0f8;
+    }
+  
+    h1 {
+      font-size: 2.3rem;
+      color: #03045e;
+      letter-spacing: .2rem;
+      margin: 10px;
+    }
+  
+    h4 {
+      margin-bottom: 10px;
+      font-weight: lighter;
+    }
+  
+    p {
+      margin-bottom: 20px;
+		}
+
+  .navBarButton {
+      padding: 35px;
+			width: 20%;
+      background-color: #03045e;
+      color: white; 
+      border-color: white;
+      border-radius: 5px;
+      font-family: 'Montserrat', sans-serif;
+    }
+	
+    .container {
+      background-color: #F1FAEE;
+      text-align: center;
+      margin-left: 90px;
+      width: 980px;
+      margin: 0 auto;
+      overflow: scroll;
+      font-size: 1.2em;
+      position: relative;
+    }
+  
+  /* COMMENTS STYLES */
+    #commentBar {
+      color: #0077b6;
+      width: 1000px;
+      position: inherit;
+
+    }
+    .scroll {
+      display: block;
+      border: 0px solid red;
+      padding: 5px;
+      margin-top: 5px;
+      width: 100%;
+      height: 200px;
+      overflow-y: scroll;
+  }
+  
+    #newCommentText {
+      font-family: 'Outfit', sans-serif, 'Source Sans Pro', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      width: 35%;
+      color: black;
+      margin-top: 10px;
+      letter-spacing: 1px;
+    } 
+   
+    #newComment {
+      width: 20%;
+    }
+  
+    .hr {
+      width: 40%;
+      margin-top: 10px;
+      size: 5px;
+      border-style: solid;
+      border-color: #0077b6
+    } 
+  
+    .sidebarImage {
+      width: 400px;
+      height: 500px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+  
+    /* SIDE NAVIGATION STYLES */
+    .sidenav {
+      height: 100%;
+      width: 15%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #03045e;
+      overflow-x: hidden;
+      overflow-y: scroll;
+      padding-top: 20px;
+      color: #fff;
+    }
+  
+    .rightnav{
+      height: 100%;
+      width: 15%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      right: 0;
+      background-color: #03045e;
+      padding-top: 20px;
+      color: white;
+    } 
+  /*    
+    input{
+      background-color: #f0f3f2
+    }
+     */
+    #cities{
+      padding: 35px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+   
+    .animation {
+      animation-duration: 0.7s;
+      animation-name: animate-pop;
+      animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
+    }
+    
+    @keyframes animate-pop {
+      0% {
+        opacity: 0;
+        transform: scale(0.5, 0.5);
+      }
+    
+      100% {
+        opacity: 1;
+        transform: scale(1, 1);
+      }
+    }
+  
+    li.citiesList {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      text-decoration: none;
+    }
+  
+    form {
+      width: 100%;
+      text-overflow: ellipsis;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    input {
+      border-bottom-left-radius: 5px;
+      border-top-right-radius: 5px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      height: 28px;
+      width: 75%;
+      font-style: italic;
+    }
+  
+    #primary-footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 20px;
+      color:darkblue;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: .8rem;
+    }
+  
+    #likeButton {
+     border-radius: 5px;
+    }
+  
+    #sidebarImage {
+      cursor: pointer;
+    }
